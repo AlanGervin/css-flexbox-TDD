@@ -1,0 +1,28 @@
+{
+  "name": "flexboxbusiness",
+  "version": "1.0.0",
+  "description": "business made with TDD",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "mocha": "^8.2.1",
+    "phantomjs": "^2.1.7",
+    "phantomjs-prebuilt": "^2.1.16",
+    "webdriverio": "^6.12.1",
+    "webpage": "^0.3.0"
+  },
+  "devDependencies": {
+    "@wdio/cli": "^6.12.1",
+    "@wdio/jasmine-framework": "^6.11.0",
+    "@wdio/local-runner": "^6.12.1",
+    "@wdio/mocha-framework": "^6.11.0",
+    "@wdio/spec-reporter": "^6.11.0",
+    "@wdio/sync": "^6.11.0",
+    "chromedriver": "^88.0.0",
+    "wdio-chromedriver-service": "^6.0.4"
+  }
+}
